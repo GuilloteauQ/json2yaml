@@ -16,6 +16,14 @@ The corresponding YAML will be written to standard out.
 
 # Installation
 
+## NixOS
+
+```bash
+nix-env -i -f https://github.com/GuilloteauQ/json2yaml/tarball/master
+```
+
+## Original
+
 Requires Python 3 and PyYAML.
 
 TODO: Make this easier for someone who's not already an expert in Python to install
